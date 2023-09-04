@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Finder App</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+
+</head>
+<body>
+    <!-- navagation bar -->
+<nav>
+    <ul class="nav__section">
+
+        <li class="nav__list">
+            <a href="#api" class="nav__headers">Find Schools</a>
+        </li>
+        <li class="nav__list">
+            <a href="#contact" class="nav__headers">Contact Us</a>
+        </li>
+    </ul>
+</nav>
+<!-- end navagation bar -->
+<!-- landing page -->
+<div class="landing__page">
+    <div class="landing__header">
+        <h1 class="landing__h1">Finding the right<br>school, <br> made <span class="landing__color">easy.</span> </h1>
+        <a class="landing__text" href="#api"><button  class="landing__button">Get Started</button></a>
+    </div>
+   </div>
+ <!-- end landing page -->
+ <!-- start api section -->
+ <section id="api" class="wrapper">
+<!-- maybe add a header/title -->
+    <div class="school-container">
+    <div class="search-bar">
+        <input type="text" id="locationInput" placeholder="Enter a location">
+        <button id="searchButton">Search</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>School Name</th>
+                <th>Location</th>
+                <th>School Level</th>
+                <th>Grades</th>
+                <th>Ranking</th>
+            </tr>
+        </thead>
+        <tbody id="schoolTableBody">
+            <!-- School data will be displayed here -->
+        </tbody>
+    </table>
+    </div>
+ </section>
+ <!-- end api section -->
+ <!-- start contact page -->
+ <section id="contact" class="contact__section">
+    <h1>Questions?</h1>
+    <p>feel free to send us a message about an inquiry</p>
+    <section class="form__section">
+        <form class="contactForm">
+            <label class="contactLabel" for="fname" data-selected="true" data-label-id="0" data-metatip="true">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+
+            <label class="contactLabel" for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+
+            <label class="contactLabel" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+            <label class="contactLabel" for="textarea">Extra Comments:</label>
+            <textarea id="textarea" rows="5" name="textarea"></textarea>
+            <button class="contact-button">Submit</button>
+        </form>
+    </section>
+
+
+ </section>
+
+
+    <!-- The type="module" attribute tells the browser to treat the linked JavaScript file as an ECMAScript module,
+         which will enable Parcel to handle the environment variable. -->
+    <script src="script.js" type="module"></script>
+</body>
+</html>

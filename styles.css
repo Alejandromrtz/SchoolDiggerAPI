@@ -1,0 +1,269 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+.landing__page {
+    height: 608px;
+    font-family: "Poppins";
+    font-weight: 'Regular 400';
+    background-image: url('images/layeredwaves12.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust this based on your preference */
+}
+
+.button__styling{
+    text-decoration: none;
+    color: white;
+}
+
+.landing__color{
+    color: #1a659e;
+}
+
+.landing__text{
+  text-decoration: none;
+}
+
+/*NAVAGATION BAR CSS  */
+li{
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+
+.nav__section {
+    margin: 40px;
+    padding-right: 42px;
+    display: flex;
+    flex-direction: end;
+    text-decoration: none;
+    justify-content: end;
+}
+a{
+    scroll-behavior: smooth 2s;
+}
+
+.nav__list {
+    margin: 0 12px;
+}
+
+.nav__headers {
+    display: flex;
+    
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+}
+
+/* landing page styling  */
+.landing__header{
+    width: 420px;
+    padding: 96px;
+}
+.landing__h1{
+    width: 400px;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.landing__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    text-align:center;
+    border: none;
+    border-radius: 2px;
+    background-color: #655656af;
+    background-size: 300% 100%;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+
+/* api section styling for cards that will be on that */
+.wrapper {
+    /* background: url('images/layeredwavesapi.svg');  */
+    /* background-image: url(/HopeHacksImg/kidsmile.jpeg); */
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 40px;
+}
+#schoolNameDiv{
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  
+}
+#schoolTableBody{
+  color: black;
+}
+
+
+  .school-container{
+    justify-content: center;
+    /* From https://css.glass */
+    color: white;
+    /* font-size: 30px; */
+    background: rgba(108, 114, 116, 0.594);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(99, 95, 95);
+    backdrop-filter: blur(4.0px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 8px solid rgba(32, 34, 35, 0.307);
+    /* width: 800px; */
+    box-shadow: 0px 20px 30px 10px rgba(53, 50, 50, 0.699);
+    position: relative;
+    overflow: overlay;
+    min-height: 450px;
+    width: 650px;
+  }
+
+  
+/* glass background */
+/* background: rgba(44, 38, 38, 0.38);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.1px);
+-webkit-backdrop-filter: blur(7.1px); */
+
+/* end api section styling */
+
+/* contact page css */
+ 
+
+
+/* Style for the search bar */
+.search-bar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  width: 300px;
+}
+
+.search-bar button {
+  border-radius: 3px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  color: white;
+  border: 1px solid #0000002a;
+  text-align: left;
+}
+
+table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+
+/* contact */
+.contact__section h1, p{
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.contact__section {
+ height: 100vh;
+  background-color: #ccc;
+  background-image:url(images/hiekiapi.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: poppins,sans-serif;
+  font-size: 25px;
+  min-height: calc(100vh - 384px);
+  position: relative;
+  text-align: center;
+}
+
+
+.contactForm{
+  -webkit-backdrop-filter: blur(3.2px);
+  backdrop-filter: blur(3.2px);
+  background: hsla(0,0%,59%,.323);
+  border: 1px solid hsla(0,1%,82%,.24);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0,0,0,.9);
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins,sans-serif;
+  font-size: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  width: 50%;
+}
+
+.contact-button{
+  align-self: center;
+  background-color: #007bff;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 107px;
+}
+
+
+
+@media  (max-width: 768px){
+    .nav__headers{
+      font-size: 16px;
+    }
+
+    .landing__header{
+      padding-top: 80px;
+    
+    }
+    .landing__h1{
+      font-size: 38px;
+    }
+
+    #homeNav{
+      display: none;
+    }
+}
+

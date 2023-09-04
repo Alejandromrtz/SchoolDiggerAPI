@@ -1,0 +1,237 @@
+* {
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.landing__page {
+  font-family: Poppins;
+  font-weight: "Regular 400";
+  background-image: url("layeredwaves12.14dcbc93.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 608px;
+}
+
+.button__styling {
+  color: #fff;
+  text-decoration: none;
+}
+
+.landing__color {
+  color: #1a659e;
+}
+
+.landing__text {
+  text-decoration: none;
+}
+
+li {
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+.nav__section {
+  flex-direction: end;
+  justify-content: end;
+  margin: 40px;
+  padding-right: 42px;
+  text-decoration: none;
+  display: flex;
+}
+
+a {
+  scroll-behavior: smooth 2s;
+}
+
+.nav__list {
+  margin: 0 12px;
+}
+
+.nav__headers {
+  color: #000;
+  font-family: Poppins, "sans-serif";
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+}
+
+.landing__header {
+  width: 420px;
+  padding: 96px;
+}
+
+.landing__h1 {
+  width: 400px;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.landing__button {
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  -o-transition: all 1s ease-in-out;
+  background-color: #655656af;
+  background-size: 300% 100%;
+  border: none;
+  border-radius: 2px;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 1s ease-in-out;
+  display: flex;
+}
+
+.wrapper {
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+}
+
+#schoolNameDiv {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  display: flex;
+}
+
+#schoolTableBody {
+  color: #000;
+}
+
+.school-container {
+  color: #fff;
+  -webkit-backdrop-filter: blur(4px);
+  overflow: overlay;
+  background: #6c727497;
+  border: 8px solid #2022234e;
+  border-radius: 16px;
+  justify-content: center;
+  width: 650px;
+  min-height: 450px;
+  position: relative;
+  box-shadow: 0 20px 30px 10px #353232b2;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-bar input[type="text"] {
+  width: 300px;
+  padding: 5px;
+}
+
+.search-bar button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  color: #fff;
+  text-align: left;
+  border: 1px solid #0000002a;
+  padding: 10px;
+}
+
+table th {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.contact__section h1, p {
+  color: #000;
+  place-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contact__section {
+  color: #fff;
+  text-align: center;
+  background-color: #ccc;
+  background-image: url("hiekiapi.0ac16aff.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: calc(100vh - 384px);
+  font-family: poppins, sans-serif;
+  font-size: 25px;
+  position: relative;
+}
+
+.contactForm {
+  -webkit-backdrop-filter: blur(3.2px);
+  backdrop-filter: blur(3.2px);
+  background: #96969652;
+  border: 1px solid #d2d1d13d;
+  border-radius: 10px;
+  flex-direction: column;
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  box-shadow: 0 4px 30px #000000e6;
+}
+
+.contact-button {
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 20px;
+  justify-content: center;
+  align-self: center;
+  width: 107px;
+  margin-top: 10px;
+  display: flex;
+}
+
+@media (width <= 768px) {
+  .nav__headers {
+    font-size: 16px;
+  }
+
+  .landing__header {
+    padding-top: 80px;
+  }
+
+  .landing__h1 {
+    font-size: 38px;
+  }
+
+  #homeNav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */

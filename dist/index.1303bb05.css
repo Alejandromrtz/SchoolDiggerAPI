@@ -2,17 +2,14 @@
   font-family: Poppins, sans-serif;
 }
 
-body {
-  margin: 0 auto;
-}
-
 .landing__page {
   font-family: Poppins;
   font-weight: "Regular 400";
-  background-image: url("layeredwaves12.14dcbc93.svg");
+  background-image: url("svgbackground.ac553dad.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 608px;
+  width: 100%;
+  height: 800px;
+  display: flex;
 }
 
 .button__styling {
@@ -60,8 +57,8 @@ a {
 }
 
 .landing__header {
-  width: 420px;
-  padding: 96px;
+  margin-top: 100px;
+  margin-left: 80px;
 }
 
 .landing__h1 {
@@ -76,7 +73,7 @@ a {
   cursor: pointer;
   text-align: center;
   -o-transition: all 1s ease-in-out;
-  background-color: #655656af;
+  background-color: #2e3783af;
   background-size: 300% 100%;
   border: none;
   border-radius: 2px;
@@ -123,7 +120,7 @@ a {
   border: 8px solid #2022234e;
   border-radius: 16px;
   justify-content: center;
-  width: 650px;
+  width: 100%;
   min-height: 450px;
   position: relative;
   box-shadow: 0 20px 30px 10px #353232b2;
@@ -176,7 +173,7 @@ table th {
   color: #fff;
   text-align: center;
   background-color: #ccc;
-  background-image: url("hiekiapi.0ac16aff.svg");
+  background-image: url("svgbackgroundcontact.9c319f59.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,11 +219,11 @@ table th {
   }
 
   .landing__header {
-    padding-top: 80px;
+    margin-right: 50px;
   }
 
   .landing__h1 {
-    font-size: 38px;
+    font-size: 36px;
   }
 
   #homeNav {

@@ -62,7 +62,6 @@ a {
 }
 
 .landing__h1 {
-  width: 400px;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 500;
@@ -139,7 +138,7 @@ a {
 .search-bar button {
   color: #fff;
   cursor: pointer;
-  background-color: #007bff;
+  background-color: #1a659e;
   border: none;
   border-radius: 3px;
   padding: 5px 10px;
@@ -159,7 +158,7 @@ table th, table td {
 
 table th {
   color: #fff;
-  background-color: #007bff;
+  background-color: #1a659e;
 }
 
 .contact__section h1, p {
@@ -170,10 +169,10 @@ table th {
 }
 
 .contact__section {
-  color: #fff;
-  text-align: center;
+  color: #000;
+  text-align: start;
   background-color: #ccc;
-  background-image: url("svgbackgroundcontact.9c319f59.svg");
+  background-image: url("svgbackground.ac553dad.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,24 +191,33 @@ table th {
   border-radius: 10px;
   flex-direction: column;
   width: 50%;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 20px;
   font-family: Poppins, sans-serif;
   font-size: 20px;
-  font-weight: 700;
   display: flex;
   box-shadow: 0 4px 30px #000000e6;
 }
 
 .contact-button {
   color: #fff;
-  background-color: #007bff;
-  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  -o-transition: all 1s ease-in-out;
+  background-color: #2e3783af;
+  background-size: 300% 100%;
+  border: none;
+  border-radius: 2px;
   justify-content: center;
   align-self: center;
-  width: 107px;
+  align-items: center;
+  width: 120px;
+  height: 40px;
   margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 1s ease-in-out;
   display: flex;
 }
 
@@ -218,7 +226,12 @@ table th {
     font-size: 16px;
   }
 
+  .landing__page {
+    width: 100%;
+  }
+
   .landing__header {
+    margin-left: 32px;
     margin-right: 50px;
   }
 
@@ -226,7 +239,11 @@ table th {
     font-size: 36px;
   }
 
-  #homeNav {
+  .contact__header {
+    margin-bottom: 24px;
+  }
+
+  .contact__text {
     display: none;
   }
 }

@@ -69,7 +69,7 @@ a{
     margin-left: 80px;
 }
 .landing__h1{
-    width: 400px;
+  
     font-size: 48px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -170,7 +170,7 @@ backdrop-filter: blur(7.1px);
 .search-bar button {
   border-radius: 3px;
   padding: 5px 10px;
-  background-color: #007bff;
+  background-color: #1a659e;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -190,7 +190,7 @@ table th, table td {
 }
 
 table th {
-  background-color: #007bff;
+  background-color: #1a659e;
   color: #fff;
 }
 
@@ -207,16 +207,16 @@ table th {
 .contact__section {
  height: 100vh;
   background-color: #ccc;
-  background-image:url(images/svgbackgroundcontact.svg);
+  background-image:url(images/svgbackground.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #000;
   font-family: poppins,sans-serif;
   font-size: 25px;
   min-height: calc(100vh - 384px);
   position: relative;
-  text-align: center;
+  text-align: start;
 }
 
 
@@ -232,22 +232,32 @@ table th {
   font-family: Poppins,sans-serif;
   font-size: 25px;
   font-size: 20px;
-  font-weight: 700;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
   padding: 20px;
   width: 50%;
 }
 
 .contact-button{
-  align-self: center;
-  background-color: #007bff;
-  border-radius: 20px;
-  color: #fff;
   display: flex;
-  justify-content: center;
   margin-top: 10px;
-  width: 107px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 120px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  text-align:center;
+  border: none;
+  border-radius: 2px;
+  background-color: #2e3783af;
+  background-size: 300% 100%;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 
@@ -256,17 +266,28 @@ table th {
     .nav__headers{
       font-size: 16px;
     }
+    .landing__page{
+      width: 100%;
+    }
 
     .landing__header{
       margin-right: 50px;
+      margin-left: 32px;
     
     }
     .landing__h1{
       font-size: 36px;
     }
 
-    #homeNav{
+    .contact__header{
+      margin-bottom: 24px;
+    }
+    .contact__text{
       display: none;
     }
+
+
+
 }
+
 

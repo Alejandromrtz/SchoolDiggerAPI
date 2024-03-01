@@ -240,7 +240,7 @@ table th {
 .contactForm {
   -webkit-backdrop-filter: blur(3.2px);
   backdrop-filter: blur(3.2px);
-  background: #96969652;
+  background: #39383852;
   border: 1px solid #d2d1d13d;
   border-radius: 10px;
   flex-direction: column;

@@ -279,9 +279,9 @@ table th {
 
 
 .contactForm{
-  -webkit-backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(2.2px);
   backdrop-filter: blur(3.2px);
-  background: hsla(0,0%,59%,.323);
+  background: hsla(0, 1%, 22%, 0.323);
   border: 1px solid hsla(0,1%,82%,.24);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0,0,0,.9);
